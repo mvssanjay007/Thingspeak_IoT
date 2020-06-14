@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 OkHttpClient client = new OkHttpClient();
-                 String url = "https://api.thingspeak.com/update.json?api_key=18RMYZHYS6PNBCQA&field2=1";
+                 String url = "https://api.thingspeak.com/update.json?api_key=18RMYZHYS6PNBCQA&field1=2";
                 Request request = new Request.Builder().url(url).build();
                 client.newCall(request).enqueue(new Callback() {
                     @Override
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 OkHttpClient client = new OkHttpClient();
-                String url = "https://api.thingspeak.com/update.json?api_key=18RMYZHYS6PNBCQA&field2=1";
+                String url = "https://api.thingspeak.com/update.json?api_key=18RMYZHYS6PNBCQA&field1=3";
                 Request request = new Request.Builder().url(url).build();
                 client.newCall(request).enqueue(new Callback() {
                     @Override
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 OkHttpClient client = new OkHttpClient();
-                String url = "https://api.thingspeak.com/update.json?api_key=18RMYZHYS6PNBCQA&field2=1";
+                String url = "https://api.thingspeak.com/update.json?api_key=18RMYZHYS6PNBCQA&field2=4";
                 Request request = new Request.Builder().url(url).build();
                 client.newCall(request).enqueue(new Callback() {
                     @Override
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 OkHttpClient client = new OkHttpClient();
-                String url = "https://api.thingspeak.com/update.json?api_key=18RMYZHYS6PNBCQA&field2=1";
+                String url = "https://api.thingspeak.com/update.json?api_key=18RMYZHYS6PNBCQA&field2=5";
                 Request request = new Request.Builder().url(url).build();
                 client.newCall(request).enqueue(new Callback() {
                     @Override
